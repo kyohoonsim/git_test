@@ -40,8 +40,13 @@ Git 명령어 테스트용 레포지토리입니다.
 푸시(push)
 - git push -u origin master
 
+강제 푸시
+- git push origin +[브랜치명]
+- git push origin [브랜치명] -f
+
 풀(pull)
 - git pull origin master
+- git pull --rebase
 
 원격 레포지토리에 올라간 파일 또는 폴더 삭제
 - git rm --cached -r [폴더명 or 파일명]
