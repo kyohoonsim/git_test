@@ -23,11 +23,17 @@ Git 명령어 테스트용 레포지토리입니다.
 커밋
 - git commit -m "커밋 메시지"
 
-커밋 취소
-- 최신 커밋 취소: git reset HEAD^
-- 최신 커밋 취소(스테이지에서는 내리지 않음): git reset --soft HEAD^
-- 최신 커밋 취소(수정한 내용도 제거): git reset --hard HEAD^
-- 특정 버전으로 돌아가기: git reset [커밋해시]
+최신 커밋 취소
+- git reset HEAD^
+
+최신 커밋 취소(스테이지에서는 내리지 않음)
+- git reset --soft HEAD^
+
+최신 커밋 취소(수정한 내용도 제거)
+- git reset --hard HEAD^
+
+특정 버전으로 돌아가기
+- git reset [커밋해시]
 
 특정 커밋만 취소
 - 특정 커밋만을 취소하고, 그것을 기록하기 위해 새 커밋을 생성
@@ -62,6 +68,9 @@ Git 명령어 테스트용 레포지토리입니다.
 
 브랜치 삭제
 - git branch -d [브랜치명]
+
+브랜치 강제 삭제
+- git branch -D [브랜치명]
 
 원격 레포지토리 브랜치 삭제
 - git push origin --delete [브랜치명]
