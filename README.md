@@ -74,3 +74,6 @@ Git 명령어 테스트용 레포지토리입니다.
 
 원격 레포지토리 브랜치 삭제
 - git push origin --delete [브랜치명]
+
+머지(merge)
+- git merge [현재브랜치로merge할브랜치명]
