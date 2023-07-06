@@ -77,3 +77,9 @@ Git 명령어 테스트용 레포지토리입니다.
 
 머지(merge)
 - git merge [현재브랜치로merge할브랜치명]
+
+원격 브랜치에서 변경 사항 확인 및 로컬 저장소와 원격 저장소 동기화
+- git fetch
+- git fetch --all (모든 원격 브랜치의 변경 사항을 가져오도록 지시)
+
+- git remote prune origin
