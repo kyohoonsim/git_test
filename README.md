@@ -84,3 +84,6 @@ Git 명령어 테스트용 레포지토리입니다.
 
 원격 브랜치에서 로컬로 가져온 브랜치 중에서 원격 저장소에서 삭제된 브랜치를 정리하는데 사용
 - git remote prune origin
+
+원격 저장소 최신 이력 확인
+- git remote update
